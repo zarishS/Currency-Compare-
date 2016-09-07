@@ -18,3 +18,10 @@ function load() {
     xhttp.open("GET", "http://api.fixer.io/latest?base="+base);
     xhttp.send();
 }
+
+function enter(e){
+ var key=e.keyCode || e.which;
+  if (key==13){
+     load();
+  }
+}

@@ -29,7 +29,7 @@
         <div class="col-lg-6 col-lg-offset-5">
             <div class="input-group">
             <input type="text" id="baseRate" class="form-control" placeholder="Currency Code Base Rate e.g. NZD ">
-             <input type="text" id="compareWith" class="form-control" placeholder="Compare Currency Code With e.g. AUD">
+             <input type="text" id="compareWith" class="form-control" onkeypress = enter(event) placeholder="Compare Currency Code With e.g. AUD">
             <button type="button" class="btn btn-secondary" onclick="load()"> Search </button>
             </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
@@ -38,7 +38,7 @@
         
         </div>
     <div class="container">
-        <p id="data"> </p>
+        <p class = "output" id="data"></p>
 
     </div>
 
