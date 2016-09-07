@@ -1,0 +1,27 @@
+.jumbotron{
+    text-align: center;
+    background: #FF8D33;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url("https://static.pexels.com/photos/34088/pexels-photo-large.jpg");
+    background-size: cover; 
+} 
+
+.form-control {
+    margin-top: 0.5px;
+}
+
+.move-down {
+    margin-top: 20px;
+}
+
+.form-control{
+    margin-top: 20px;
+
+}
+.btn-secondary {
+    margin-top: 20px;
+}
