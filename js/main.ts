@@ -1,4 +1,4 @@
-function load() {
+function load() : void {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
@@ -20,7 +20,7 @@ function load() {
 }
 
 function enter(e){
- var key=e.keyCode || e.which;
+ var key : number = e.keyCode || e.which;
   if (key==13){
      load();
   }
