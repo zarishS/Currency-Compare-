@@ -8,8 +8,8 @@ function load() : void {
             document.getElementById("data").innerHTML = obj.rates[convertTo] + "<br />";
             
             console.log(obj);
-
         }
+        
     };
     var base = document.getElementById("baseRate").value;
     var convertTo = document.getElementById("compareWith").value;
